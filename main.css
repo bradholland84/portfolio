@@ -1,5 +1,8 @@
 body {
-  font: 100% Helvetica, sans-serif;
-  color: #000; }
+  font-size: 18px;
+  font: Helvetica, sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.45; }
 
 /*# sourceMappingURL=main.css.map */

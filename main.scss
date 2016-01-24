@@ -2,6 +2,11 @@ $font-stack: Helvetica, sans-serif;
 $primary-color: #000;
 
 body {
-  font: 100% $font-stack;
-  color: $primary-color;
+  font-size: 18px;
+  font: $font-stack;
 }
+
+h1,h2,h3,h4,h5,h6,p {
+  line-height: 1.45;
+}
+
