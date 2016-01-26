@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 20vw;
   height: 100vh;
   text-align: center;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.75);
   background-color: rgba(77, 170, 103, 0.79); }
 
 .sidebar-link {
@@ -40,6 +41,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-left: 4vw;
   margin-right: 4vw;
   margin-bottom: 6vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: rgba(108, 255, 158, 0.79); }
 
 #resume {
