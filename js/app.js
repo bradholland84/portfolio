@@ -3,6 +3,12 @@
  */
 $(function() {
     'use strict';
+    window.sr = ScrollReveal({
+        origin: 'left',
+        duration: 500,
+        rotate: { x : 0, y : 0, z : -90 },
+        mobile: true
+    });
 
     $('body').flowtype({
         minimum   : 500,
@@ -11,6 +17,8 @@ $(function() {
         maxFont   : 40,
         fontRatio : 30
     });
+
+    sr.reveal('.sidebar-link');
 
 
 });

@@ -5,4 +5,53 @@ body {
 h1, h2, h3, h4, h5, h6, p {
   line-height: 1.45; }
 
+.circular {
+  width: 20vmax;
+  height: 20vmax;
+  border-radius: 20vmax;
+  -webkit-border-radius: 20vmax;
+  -moz-border-radius: 20vmax;
+  margin-left: 10vw;
+  margin-top: 2vh;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
+  background: url("img/square-face.jpg") no-repeat center;
+  background-size: cover; }
+
+#content {
+  margin-left: 20vw;
+  width: 80vw;
+  height: 100vh;
+  background-color: #ebebeb; }
+
+#sidebar {
+  position: fixed;
+  left: 0;
+  width: 20vw;
+  height: 100vh;
+  text-align: center;
+  background-color: rgba(77, 170, 103, 0.79); }
+
+.sidebar-link {
+  width: 12vmin;
+  height: 12vmin;
+  -webkit-border-radius: 8vmin;
+  -moz-border-radius: 8vmin;
+  border-radius: 8vmin;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-bottom: 6vh;
+  background-color: rgba(108, 255, 158, 0.79); }
+
+#resume {
+  background: url("img/resume.png") no-repeat center;
+  background-size: cover; }
+
+#linkedin {
+  background: url("img/linked.png") no-repeat center;
+  background-size: cover; }
+
+#github {
+  background: url("img/github-512.png") no-repeat center;
+  background-size: cover; }
+
 /*# sourceMappingURL=main.css.map */
