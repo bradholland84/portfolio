@@ -18,6 +18,19 @@ $(function() {
         fontRatio : 30
     });
 
+    var options = {
+        scrollSource: document,
+        scrollbar: '.scrollbar',
+        dragSource: document,
+        horizontal: 1,
+        itemNav: 'forceCentered',
+        startAt: 0,
+        speed: 300,
+        mouseDragging: 1,
+        touchDragging: 1
+    };
+    $('.frame').sly(options);
+
     sr.reveal('.sidebar-link');
 
 

@@ -56,4 +56,43 @@ h1, h2, h3, h4, h5, h6, p {
   background: url("img/github-512.png") no-repeat center;
   background-size: cover; }
 
+#main-content {
+  height: 80vh;
+  padding-top: 28vh;
+  padding-left: 20vw; }
+
+.frame {
+  width: 100%;
+  height: 60vh;
+  padding: 0; }
+
+.frame .slidee {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none; }
+
+.frame .slidee li {
+  float: left;
+  margin: 0 5px 0 0;
+  padding: 0;
+  width: 500px;
+  height: 100%; }
+
+.scrollbar {
+  margin: 0 0 1em 0;
+  height: 2px;
+  background: #ccc;
+  line-height: 0; }
+
+.scrollbar .handle {
+  width: 100px;
+  height: 100%;
+  background: #292a33;
+  cursor: pointer; }
+
+.content-container {
+  background-color: #f5c5ff;
+  height: inherit; }
+
 /*# sourceMappingURL=main.css.map */
