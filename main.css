@@ -1,46 +1,43 @@
 body {
   font-size: 18px;
-  font: Helvetica, sans-serif; }
+  font-family: Helvetica, sans-serif; }
 
 h1, h2, h3, h4, h5, h6, p {
   line-height: 1.45; }
 
 .circular {
-  width: 20vmax;
-  height: 20vmax;
-  border-radius: 20vmax;
-  -webkit-border-radius: 20vmax;
-  -moz-border-radius: 20vmax;
-  margin-left: 10vw;
+  width: 12vmax;
+  height: 12vmax;
+  border-radius: 12vmax;
+  -webkit-border-radius: 12vmax;
+  -moz-border-radius: 12vmax;
+  margin-left: 6vw;
   margin-top: 2vh;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
+  margin-right: 2vw;
+  float: left;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.75);
   background: url("img/square-face.jpg") no-repeat center;
   background-size: cover; }
 
-#content {
-  margin-left: 20vw;
-  width: 80vw;
-  height: 100vh;
-  background-color: #ebebeb; }
-
 #sidebar {
   position: fixed;
-  left: 0;
-  width: 20vw;
-  height: 100vh;
+  top: 0;
+  width: 100vw;
+  height: 10vh;
   text-align: center;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
   background-color: rgba(77, 170, 103, 0.79); }
 
 .sidebar-link {
-  width: 12vmin;
-  height: 12vmin;
-  -webkit-border-radius: 8vmin;
-  -moz-border-radius: 8vmin;
-  border-radius: 8vmin;
-  margin-left: 4vw;
-  margin-right: 4vw;
-  margin-bottom: 6vh;
+  width: 10vmin;
+  height: 10vmin;
+  -webkit-border-radius: 6vmax;
+  -moz-border-radius: 6vmax;
+  border-radius: 6vmax;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  margin-top: 2vh;
+  float: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: rgba(108, 255, 158, 0.79); }
 
@@ -95,4 +92,38 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #f5c5ff;
   height: inherit; }
 
-/*# sourceMappingURL=main.css.map */
+@media (min-width: 768px) {
+  .circular {
+    width: 12vmax;
+    height: 12vmax;
+    border-radius: 12vmax;
+    -webkit-border-radius: 12vmax;
+    -moz-border-radius: 12vmax;
+    margin-left: 6vw;
+    margin-top: 2vh;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.75);
+    background: url("img/square-face.jpg") no-repeat center;
+    background-size: cover; }
+
+  #sidebar {
+    position: fixed;
+    left: 0;
+    width: 12vw;
+    height: 100vh;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
+    background-color: rgba(77, 170, 103, 0.79); }
+
+  .sidebar-link {
+    width: 8vmin;
+    height: 8vmin;
+    -webkit-border-radius: 6vmin;
+    -moz-border-radius: 6vmin;
+    border-radius: 6vmin;
+    margin-left: 2vw;
+    margin-right: 4vw;
+    margin-bottom: 6vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(108, 255, 158, 0.79); }
+
+}
