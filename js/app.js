@@ -22,7 +22,7 @@ $(function() {
         scrollSource: document,
         scrollbar: '.scrollbar',
         dragSource: document,
-        horizontal: 1,
+        horizontal: false,
         itemNav: 'forceCentered',
         startAt: 0,
         speed: 300,
