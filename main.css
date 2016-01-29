@@ -1,12 +1,9 @@
 body {
   font-size: 18px;
-  font-weight: 300;
-  font-family: Helvetica, sans-serif;
-}
+  font: Helvetica, sans-serif; }
 
 h1, h2, h3, h4, h5, h6, p {
-  line-height: 1.45;
-}
+  line-height: 1.45; }
 
 .circular {
   width: 12vmax;
@@ -20,8 +17,7 @@ h1, h2, h3, h4, h5, h6, p {
   float: left;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.75);
   background: url("img/square-face.jpg") no-repeat center;
-  background-size: cover;
-}
+  background-size: cover; }
 
 #sidebar {
   z-index: 100;
@@ -31,8 +27,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 10vh;
   text-align: center;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
-  background-color: rgba(77, 170, 103, 0.79);
-}
+  background-color: rgba(77, 170, 103, 0.79); }
 
 .sidebar-link {
   width: 10vmin;
@@ -45,54 +40,46 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: 2vh;
   float: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: rgba(108, 255, 158, 0.79);
-}
+  background-color: rgba(108, 255, 158, 0.79); }
 
 #resume {
   background: url("img/resume.png") no-repeat center;
-  background-size: cover;
-}
+  background-size: cover; }
 
 #linkedin {
   background: url("img/linked.png") no-repeat center;
-  background-size: cover;
-}
+  background-size: cover; }
 
 #github {
   background: url("img/github-512.png") no-repeat center;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .content-title {
   font-weight: 400;
-  text-align: center;
-}
+  text-align: center; }
 
 .container-fluid {
   height: 80vh;
   margin-top: 15vh;
   margin-left: 10vw;
-  margin-right: 10vw;
-}
+  margin-right: 10vw; }
 
 .content-container {
   background-color: #feffb3;
   width: 100%;
   padding-top: 100%;
   margin: 16px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .content-container:hover .overlay {
-  opacity:1;
-}
+  opacity: 1; }
 
 .overlay {
-  background:rgba(0,0,0,.75);
-  opacity:0;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  text-align: center;
   -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
-}
+  -moz-transition: opacity .25s ease; }
 
 @media (min-width: 768px) {
   .circular {
@@ -103,8 +90,7 @@ h1, h2, h3, h4, h5, h6, p {
     -moz-border-radius: 12vmax;
     margin-left: 6vw;
     margin-top: 2vh;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.75);
-  }
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.75); }
 
   #sidebar {
     position: fixed;
@@ -112,8 +98,7 @@ h1, h2, h3, h4, h5, h6, p {
     width: 12vw;
     height: 100vh;
     text-align: center;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
-  }
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.75); }
 
   .sidebar-link {
     width: 8vmin;
@@ -124,32 +109,34 @@ h1, h2, h3, h4, h5, h6, p {
     margin-left: 2vw;
     margin-right: 4vw;
     margin-bottom: 6vh;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
   .container-fluid {
     height: 80vh;
     margin-top: 5vh;
     margin-left: 20vw;
-    margin-right: 10vw;
-  }
+    margin-right: 10vw; }
 
   .content-container {
     width: 100%;
     padding-top: 100%;
-    margin: 16px;
-  }
-}
-
+    margin: 16px; } }
 #readinglog {
   background: url("img/readinglog.jpg") no-repeat center;
   -webkit-background-size: contain;
-  background-size: contain ;
-  overflow: hidden;
-}
+  background-size: contain;
+  overflow: hidden; }
 
-#readinglog-title {
-  color:rgba(255,255,255,.85);
-  font-size:96px;
-}
+#snake {
+  background: url("img/snake.png") no-repeat center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  overflow: hidden; }
 
+#store {
+  background: url("img/store.png") no-repeat center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  overflow: hidden; }
+
+/*# sourceMappingURL=main.css.map */

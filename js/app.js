@@ -21,7 +21,7 @@ $(function() {
         minimum   : 500,
         maximum   : 1200,
         minFont   : 12,
-        maxFont   : 40,
+        maxFont   : 32,
         fontRatio : 30
     });
 
