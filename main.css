@@ -1,5 +1,6 @@
 body {
   font-size: 18px;
+  font-weight: 300;
   font-family: Helvetica, sans-serif;
 }
 
@@ -23,6 +24,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #sidebar {
+  z-index: 100;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -61,6 +63,11 @@ h1, h2, h3, h4, h5, h6, p {
   background-size: cover;
 }
 
+.content-title {
+  font-weight: 400;
+  text-align: center;
+}
+
 .container-fluid {
   height: 80vh;
   margin-top: 15vh;
@@ -73,6 +80,18 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   padding-top: 100%;
   margin: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-container:hover .overlay {
+  opacity:1;
+}
+
+.overlay {
+  background:rgba(0,0,0,.75);
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
 }
 
 @media (min-width: 768px) {
@@ -121,3 +140,16 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 16px;
   }
 }
+
+#readinglog {
+  background: url("img/readinglog.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover ;
+  overflow: hidden;
+}
+
+#readinglog-title {
+  color:rgba(255,255,255,.85);
+  font-size:96px;
+}
+
