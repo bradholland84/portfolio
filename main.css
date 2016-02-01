@@ -139,4 +139,15 @@ h1, h2, h3, h4, h5, h6, p {
   background-size: contain;
   overflow: hidden; }
 
+#huffman {
+  background: url("img/huffman.gif") no-repeat center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  overflow: hidden; }
+
+#more {
+  background: url("img/more.gif") no-repeat center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  overflow: hidden; }
 /*# sourceMappingURL=main.css.map */
