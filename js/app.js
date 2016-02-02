@@ -25,4 +25,35 @@ $(function() {
         fontRatio : 30
     });
 
+    var circlePhoto = $('.circular');
+
+    //$('#resume').hover(function() {
+    //    circlePhoto.css('background', "url(img/square-face-resume.jpg) no-repeat center")
+    //        .css('background-size', "cover");
+    //});
+
+    $("#resume").on("mouseenter", function(){
+        circlePhoto.css('background', "url(img/square-face-resume.jpg) no-repeat center")
+            .css('background-size', "cover");
+    }).on("mouseleave", function(){
+        circlePhoto.css('background', "url(img/square-face.jpg) no-repeat center")
+            .css('background-size', "cover");
+    });
+
+    $("#github").on("mouseenter", function(){
+        circlePhoto.css('background', "url(img/square-face-github.jpg) no-repeat center")
+            .css('background-size', "cover");
+    }).on("mouseleave", function(){
+        circlePhoto.css('background', "url(img/square-face.jpg) no-repeat center")
+            .css('background-size', "cover");
+    });
+
+    $("#linkedin").on("mouseenter", function(){
+        circlePhoto.css('background', "url(img/square-face-linkedin.jpg) no-repeat center")
+            .css('background-size', "cover");
+    }).on("mouseleave", function(){
+        circlePhoto.css('background', "url(img/square-face.jpg) no-repeat center")
+            .css('background-size', "cover");
+    });
+
 });
