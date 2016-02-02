@@ -1,6 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Neucha|Titillium+Web:400);
 body {
   font-size: 18px;
-  font: Helvetica, sans-serif; }
+  font-family: "Titillium Web", Helvetica, sans-serif;
+  font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6, p {
   line-height: 1.45; }
@@ -71,15 +73,18 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
-.content-container:hover .overlay {
-  opacity: 1; }
-
-.overlay {
-  background: rgba(0, 0, 0, 0.75);
-  opacity: 0;
+.hi {
+  font-family: 'Neucha', cursive;
   text-align: center;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease; }
+  font-size: 4em; }
+
+.projects {
+  font-family: 'Neucha', cursive;
+  text-align: center;
+  font-size: 3em; }
+
+#project-blurb {
+  font-size: 1.5em; }
 
 @media (min-width: 768px) {
   .circular {
@@ -147,6 +152,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 #more {
   background: url("img/more.gif") no-repeat center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  overflow: hidden; }
+
+#email {
+  background: url("img/email.gif") no-repeat center;
   -webkit-background-size: contain;
   background-size: contain;
   overflow: hidden; }

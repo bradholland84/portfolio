@@ -27,11 +27,6 @@ $(function() {
 
     var circlePhoto = $('.circular');
 
-    //$('#resume').hover(function() {
-    //    circlePhoto.css('background', "url(img/square-face-resume.jpg) no-repeat center")
-    //        .css('background-size', "cover");
-    //});
-
     $("#resume").on("mouseenter", function(){
         circlePhoto.css('background', "url(img/square-face-resume.jpg) no-repeat center")
             .css('background-size', "cover");
@@ -55,5 +50,9 @@ $(function() {
         circlePhoto.css('background', "url(img/square-face.jpg) no-repeat center")
             .css('background-size', "cover");
     });
+
+    $('#card-readinglog').on('click', function() {
+        $('#card-readinglog').flip();
+    })
 
 });
