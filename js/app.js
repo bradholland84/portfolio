@@ -5,7 +5,8 @@ $(function() {
     'use strict';
     window.sr = ScrollReveal({
         duration: 500,
-        mobile: true
+        mobile: true,
+        reset: false
     });
 
     sr.reveal('.sidebar-link', {
