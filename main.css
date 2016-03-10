@@ -7,6 +7,20 @@ body {
 h1, h2, h3, h4, h5, h6, p {
   line-height: 1.45; }
 
+@supports (-ms-accelerator:true) {
+  .circular {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 12vw;
+    -webkit-border-radius: 12vw;
+    -moz-border-radius: 12vw;
+  }
+  .sidebar-link {
+    -webkit-border-radius: 6vh;
+    -moz-border-radius: 6vh;
+    border-radius: 6vh;
+  }
+}
 .circular {
   width: 12vmax;
   height: 12vmax;
