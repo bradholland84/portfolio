@@ -166,4 +166,10 @@ h1, h2, h3, h4, h5, h6, p {
   background-size: contain;
   overflow: hidden; }
 
+#visualization {
+  background: url("img/visualization.png") no-repeat center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  overflow: hidden; }
+
 /*# sourceMappingURL=main.css.map */
